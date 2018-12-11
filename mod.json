@@ -1,0 +1,13 @@
+{
+  "RULE_VERSION":"20180724",
+  "name": "product-apply",
+  "apiDependencies": [
+  {
+    "name": "ecom-products"
+  },
+  {
+    "name": "user-apply"
+  }
+]
+}
+
