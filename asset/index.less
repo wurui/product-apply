@@ -1,3 +1,92 @@
 .oxmod-product-apply{
 /* CSS */
+
+	
+	font-family:AvenirNext-Medium,PingFang-SC-Regular;
+	.form-section,.bottom{
+		font-size: 14px;
+		color:#111;
+		margin:5px 10px 10px 10px;
+		padding:10px 0;
+		//border-bottom:dotted .5px #f8f8f8;
+		&:last-child{
+			border-bottom-style: none;
+		}
+		dt{
+			font-weight: 400;
+			line-height: 1.6;
+			font-size: 12px;
+			color:#666;
+		}
+	}
+	.required{
+		font-style: normal;
+		color:red;
+		
+	}
+	.text,select,textarea{
+		padding:1%;
+		width: 98%;
+		border:solid 1px #e9e9e9;
+		border-radius: 0px;
+		background-color: #fafafa;
+		box-sizing: border-box;
+
+	}
+	.text{
+		height: 32px;
+		
+		
+	}
+	select{
+		
+		
+	}
+	textarea{
+		height: 60px;
+		resize: none;
+	}
+	.bottom{
+		margin-top: 20px;
+	}
+	.bt-submit{
+		background-color: #09c;
+		width:100%;
+		height: 36px;
+		color:#fff;
+		font-size: 15px;
+		border-radius: 0px;
+		border:none;
+	}
+	.result{
+		text-align:center;
+	}
+	.result-new,
+	.result-refused,
+	.result-approved{
+		
+		min-height: 50px;
+		background-color: #f8f8f8;
+		line-height: 50px;
+		color:#666;
+		font-size:16px;
+		margin:10px;
+	}
+	.result-new{
+		&:before{
+			content: '您的申请已经提交！';
+		}
+	}
+	.result-refused{
+		&:before{
+			content: '您的申请已经被驳回！';
+			color:#f30;
+		}
+	}
+	.result-approved{
+		&:before{
+			content: '您的申请已经通过！';
+			color:#190;
+		}
+	}
  }

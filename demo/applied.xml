@@ -31,7 +31,7 @@
         </ui-fields>
         <ecom-products>
             <i>
-                <_id>12</_id>
+                <_id>123</_id>
                 <title>纯色毛绒哈居拖鞋</title>
                 <brief>居家伴侣</brief>
                 <price>19.9</price>
@@ -68,7 +68,7 @@
         </ecom-products>
         <user-apply>
             <i>
-                <target>1</target>
+                <target>123</target>
                 <subject>参与会议</subject>
                 <content>无</content>
                 <file>
