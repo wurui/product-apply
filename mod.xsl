@@ -51,7 +51,7 @@
 			            	</dl>
 			            </xsl:for-each>
 			            <div class="bottom">
-			            	<button class="bt-submit">提交</button>
+			            	<button class="bt-submit skin-bgcolor">提交</button>
 			            </div>
 		            </form>
         			
